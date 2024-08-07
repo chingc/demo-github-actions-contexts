@@ -1,0 +1,25 @@
+name: Demo
+
+on:
+  push:
+  schedule:
+    - cron: '30 5 1 * *'
+  workflow_dispatch:
+
+jobs:
+
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Env context
+        run: echo '${{ toJson(env) }}'
+        env:
+          GREETING: 'Hello, World!'
+
+      - name: Job context
+        run: echo '${{ toJson(job) }}'
+
+      - name: Runner context
+        run: echo '${{ toJson(runner) }}'
