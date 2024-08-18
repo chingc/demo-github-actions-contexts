@@ -13,4 +13,4 @@ They can be helpful for debugging.
 ## References
 
 - [GitHub Docs: GitHub Actions](https://docs.github.com/en/actions)
-- [GitHub Docs: Contexts](https://docs.github.com/en/actions/writing-workflows/choosing-what-your-workflow-does/contexts)
+- [GitHub Docs: Accessing contextual information about workflow runs](https://docs.github.com/en/actions/writing-workflows/choosing-what-your-workflow-does/contexts)
