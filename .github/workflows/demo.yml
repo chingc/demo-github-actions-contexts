@@ -3,7 +3,7 @@ name: Demo
 on:
   push:
   schedule:
-    - cron: '30 5 1 * *'
+    - cron: '0 0 1 * *'  # midnight every month (utc)
   workflow_dispatch:
 
 jobs:
