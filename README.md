@@ -2,7 +2,7 @@
 
 Contexts are a way to access information about workflow runs, variables, runner environments, jobs, and steps.
 
-They can be helpful for debugging.
+This can be helpful for debugging workflow errors or bugs.
 
 > Warning: Be careful when printing the entire context as it may contain sensitive information.
 
